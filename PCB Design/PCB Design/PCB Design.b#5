@@ -162,6 +162,11 @@
 <wire x1="120.63" y1="0" x2="120.63" y2="88.57" width="0" layer="20"/>
 <wire x1="120.63" y1="88.57" x2="0" y2="88.57" width="0" layer="20"/>
 <wire x1="0" y1="88.57" x2="0" y2="0" width="0" layer="20"/>
+<text x="50.8" y="12.7" size="1.778" layer="1">Team 14
+Hayden Pietsch
+Amanda Vuong
+Jaxon Coward
+Erick I. Cortez Valdez</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -918,6 +923,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

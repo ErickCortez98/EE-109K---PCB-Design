@@ -830,9 +830,9 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </classes>
 <parts>
 <part name="U$1" library="diy-modules" deviceset="GPS-RECEIVER-NEO6M" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="NEOHM - TE CONNECTIVITY"/>
+<attribute name="MPN" value="YR1B909KCC"/>
+<attribute name="OC_NEWARK" value="98K3962"/>
 </part>
 <part name="U$2" library="diy-modules" deviceset="SOUND-BUZZER" device="">
 <attribute name="MF" value=""/>
@@ -855,15 +855,20 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="SIDE">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="STMICROELECTRONICS"/>
+<attribute name="MPN" value="L7805ABV"/>
+<attribute name="OC_NEWARK" value="34X0689"/>
 </part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-10.16" y="104.14" size="1.778" layer="91">ST should be 0 unless testing functionality</text>
+<text x="-48.26" y="53.34" size="1.778" layer="91">Team 14
+Hayden Pietsch
+Amanda Vuong
+Jaxon Coward
+Erick I. Cortez Valdez</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="68.58" y="55.88">
@@ -1043,6 +1048,10 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

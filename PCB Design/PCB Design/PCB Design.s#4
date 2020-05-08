@@ -829,25 +829,78 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </class>
 </classes>
 <parts>
-<part name="U$1" library="diy-modules" deviceset="GPS-RECEIVER-NEO6M" device=""/>
-<part name="U$2" library="diy-modules" deviceset="SOUND-BUZZER" device=""/>
-<part name="U1" library="SparkFun-Sensors" deviceset="ADXL337" device=""/>
-<part name="U$3" library="ESP32-DEVKITV1" deviceset="ESP32DEVKITV1" device=""/>
-<part name="J1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1"/>
-<part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="SIDE"/>
+<part name="U$1" library="diy-modules" deviceset="GPS-RECEIVER-NEO6M" device="">
+<attribute name="MF" value="NEOHM - TE CONNECTIVITY"/>
+<attribute name="MPN" value="YR1B909KCC"/>
+<attribute name="OC_NEWARK" value="98K3962"/>
+</part>
+<part name="U$2" library="diy-modules" deviceset="SOUND-BUZZER" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="U1" library="SparkFun-Sensors" deviceset="ADXL337" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="U$3" library="ESP32-DEVKITV1" deviceset="ESP32DEVKITV1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="J1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="SIDE">
+<attribute name="MF" value="STMICROELECTRONICS"/>
+<attribute name="MPN" value="L7805ABV"/>
+<attribute name="OC_NEWARK" value="34X0689"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-10.16" y="104.14" size="1.778" layer="91">ST should be 0 unless testing functionality</text>
+<text x="-48.26" y="53.34" size="1.778" layer="91">Team 14
+Hayden Pietsch
+Amanda Vuong
+Jaxon Coward
+Erick I. Cortez Valdez</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="68.58" y="55.88"/>
-<instance part="U$2" gate="G$1" x="73.66" y="20.32"/>
-<instance part="U1" gate="G$1" x="10.16" y="93.98"/>
-<instance part="U$3" gate="G$1" x="2.54" y="50.8" rot="R90"/>
-<instance part="J1" gate="G$1" x="-48.26" y="33.02" rot="R180"/>
-<instance part="IC1" gate="G$1" x="-30.48" y="33.02"/>
+<instance part="U$1" gate="G$1" x="68.58" y="55.88">
+<attribute name="OC_NEWARK" x="68.58" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="68.58" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="68.58" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="73.66" y="20.32">
+<attribute name="OC_NEWARK" x="73.66" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="73.66" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U1" gate="G$1" x="10.16" y="93.98">
+<attribute name="OC_NEWARK" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$3" gate="G$1" x="2.54" y="50.8" rot="R90">
+<attribute name="OC_NEWARK" x="2.54" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="2.54" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="2.54" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J1" gate="G$1" x="-48.26" y="33.02" rot="R180">
+<attribute name="OC_NEWARK" x="-48.26" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-48.26" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-48.26" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IC1" gate="G$1" x="-30.48" y="33.02">
+<attribute name="OC_NEWARK" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -995,6 +1048,10 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

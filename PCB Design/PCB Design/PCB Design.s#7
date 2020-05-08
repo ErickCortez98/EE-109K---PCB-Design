@@ -815,8 +815,17 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0">
+<class number="0" name="default" width="0.2032" drill="0">
 <clearance class="0" value="0.127"/>
+</class>
+<class number="1" name="VIN" width="0.762" drill="0">
+<clearance class="1" value="0.254"/>
+</class>
+<class number="2" name="3.3V" width="0.508" drill="0">
+<clearance class="2" value="0.254"/>
+</class>
+<class number="3" name="5V" width="0.635" drill="0">
+<clearance class="3" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -837,13 +846,13 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <instance part="U$2" gate="G$1" x="73.66" y="20.32"/>
 <instance part="U1" gate="G$1" x="10.16" y="93.98"/>
 <instance part="U$3" gate="G$1" x="2.54" y="50.8" rot="R90"/>
-<instance part="J1" gate="G$1" x="-7.62" y="5.08" rot="R270"/>
-<instance part="IC1" gate="G$1" x="-30.48" y="17.78" rot="R90"/>
+<instance part="J1" gate="G$1" x="-48.26" y="33.02" rot="R180"/>
+<instance part="IC1" gate="G$1" x="-30.48" y="33.02"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="U$3" gate="G$1" pin="3V3"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
@@ -864,9 +873,10 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <wire x1="45.72" y1="27.94" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<label x="43.18" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -887,15 +897,17 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <junction x="-2.54" y="88.9"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND1"/>
-<wire x1="-20.32" y1="17.78" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="30.48" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-20.32" y="17.78"/>
+<wire x1="-20.32" y1="30.48" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="22.86" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="-30.48" y1="25.4" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-30.48" y="22.86"/>
+<label x="-38.1" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -960,20 +972,21 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <wire x1="43.18" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="-7.62" y1="10.16" x2="-30.48" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V" class="0">
+<net name="5V" class="3">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="-15.24" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="27.94" x2="-30.48" y2="25.4" width="0.1524" layer="91"/>
-<label x="-30.48" y="30.48" size="1.778" layer="95"/>
+<wire x1="-15.24" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="27.94" x2="-22.86" y2="33.02" width="0.1524" layer="91"/>
+<label x="-22.86" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VIN" class="1">
+<segment>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="33.02" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
+<label x="-40.64" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

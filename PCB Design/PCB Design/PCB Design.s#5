@@ -830,9 +830,9 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </classes>
 <parts>
 <part name="U$1" library="diy-modules" deviceset="GPS-RECEIVER-NEO6M" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="NEOHM - TE CONNECTIVITY"/>
+<attribute name="MPN" value="YR1B909KCC"/>
+<attribute name="OC_NEWARK" value="98K3962"/>
 </part>
 <part name="U$2" library="diy-modules" deviceset="SOUND-BUZZER" device="">
 <attribute name="MF" value=""/>
@@ -855,9 +855,9 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="SIDE">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="STMICROELECTRONICS"/>
+<attribute name="MPN" value="L7805ABV"/>
+<attribute name="OC_NEWARK" value="34X0689"/>
 </part>
 </parts>
 <sheets>

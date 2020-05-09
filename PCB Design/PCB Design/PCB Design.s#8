@@ -815,8 +815,8 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.2032" drill="0">
+<clearance class="0" value="0.127"/>
 </class>
 <class number="1" name="VIN" width="0.762" drill="0">
 <clearance class="1" value="0.254"/>

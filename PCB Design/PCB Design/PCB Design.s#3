@@ -356,133 +356,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LFCSP-16-3X3">
-<description>&lt;h3&gt;16-Pin Lead Frame Chip Scale (LFCSP) w/ Center Pad (3 x 3 mm)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL337.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 16 (+ center pad)&lt;/li&gt;
-&lt;li&gt;Area: 3.0 x 3.0 x 1.45 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 0.5 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ADXL337&lt;/li&gt;
-&lt;li&gt;ADXL377&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-1.1" y1="-1.6" x2="-1.6" y2="-1.6" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.1" width="0.15" layer="21"/>
-<smd name="1" x="-1.3" y="0.75" dx="0.4" dy="0.25" layer="1"/>
-<smd name="2" x="-1.3" y="0.25" dx="0.4" dy="0.25" layer="1"/>
-<smd name="3" x="-1.3" y="-0.25" dx="0.4" dy="0.25" layer="1"/>
-<smd name="4" x="-1.3" y="-0.75" dx="0.4" dy="0.25" layer="1"/>
-<smd name="5" x="-0.75" y="-1.3" dx="0.4" dy="0.25" layer="1" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.3" dx="0.4" dy="0.25" layer="1" rot="R90"/>
-<smd name="7" x="0.25" y="-1.3" dx="0.4" dy="0.25" layer="1" rot="R90"/>
-<smd name="8" x="0.75" y="-1.3" dx="0.4" dy="0.25" layer="1" rot="R90"/>
-<smd name="9" x="1.3" y="-0.75" dx="0.4" dy="0.25" layer="1" rot="R180"/>
-<smd name="10" x="1.3" y="-0.25" dx="0.4" dy="0.25" layer="1" rot="R180"/>
-<smd name="11" x="1.3" y="0.25" dx="0.4" dy="0.25" layer="1" rot="R180"/>
-<smd name="12" x="1.3" y="0.75" dx="0.4" dy="0.25" layer="1" rot="R180"/>
-<smd name="13" x="0.75" y="1.3" dx="0.4" dy="0.25" layer="1" rot="R270"/>
-<smd name="14" x="0.25" y="1.3" dx="0.4" dy="0.25" layer="1" rot="R270"/>
-<smd name="15" x="-0.25" y="1.3" dx="0.4" dy="0.25" layer="1" rot="R270"/>
-<smd name="16" x="-0.75" y="1.3" dx="0.4" dy="0.25" layer="1" rot="R270"/>
-<smd name="EXP" x="0" y="0" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="29"/>
-<rectangle x1="-0.3556" y1="-0.3556" x2="0.3556" y2="0.3556" layer="31"/>
-<rectangle x1="-1.6" y1="1.2" x2="-1.2" y2="1.6" layer="21"/>
-<wire x1="1.6" y1="-1.1" x2="1.6" y2="-1.6" width="0.15" layer="21"/>
-<wire x1="1.6" y1="-1.6" x2="1.1" y2="-1.6" width="0.15" layer="21"/>
-<wire x1="1.1" y1="1.6" x2="1.6" y2="1.6" width="0.15" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="1.1" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="1.1" x2="-1.6" y2="1.6" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.1" y2="1.6" width="0.15" layer="21"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.54" x2="0.381" y2="-2.159" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.54" x2="-0.381" y2="-2.159" width="0.127" layer="51"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.127" layer="51"/>
-<wire x1="2.54" y1="0" x2="2.159" y2="0.381" width="0.127" layer="51"/>
-<wire x1="2.54" y1="0" x2="2.159" y2="-0.381" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.3592" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.127" width="0.127" layer="51"/>
-<text x="-0.127" y="-1.143" size="0.508" layer="51">X</text>
-<text x="-0.762" y="0.127" size="0.508" layer="51">Z</text>
-<text x="1.27" y="0.127" size="0.508" layer="51">Y</text>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-1.9" y="1.9" radius="0.254" width="0" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ADXL337">
-<description>&lt;h3&gt;Analog Devices ADXL337 3-Axis Analog Accelerometer&lt;/h3&gt;
-&lt;p&gt;The ADXL337 is a small, thin, low power, complete 3-axis accelerometer with signal conditioned voltage outputs. The product measures acceleration with a minimum full-scale range of ±3g. It can measure the static acceleration of gravity in tiltsensing applications, as well as dynamic acceleration resulting from motion, shock, or vibration.&lt;/p&gt;</description>
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="ST" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="GND@1" x="-12.7" y="-2.54" length="short"/>
-<pin name="ZOUT" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="YOUT" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="XOUT" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="VS@1" x="-12.7" y="5.08" length="short"/>
-<pin name="GND@2" x="-12.7" y="-5.08" length="short"/>
-<pin name="VS@2" x="-12.7" y="2.54" length="short"/>
-<text x="-10.16" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-10.16" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ADXL337" prefix="U">
-<description>&lt;h3&gt;Analog Devices ADXL337 3-Axis Analog Accelerometer&lt;/h3&gt;
-&lt;p&gt;The ADXL337 is a small, thin, low power, complete 3-axis accelerometer with signal conditioned voltage outputs. The product measures acceleration with a minimum full-scale range of ±3g. It can measure the static acceleration of gravity in tiltsensing applications, as well as dynamic acceleration resulting from motion, shock, or vibration.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/ADXL337.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12786"&gt;SparkFun Triple Axis Accelerometer Breakout - ADXL337&lt;/a&gt; (SEN-12786)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="ADXL337" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LFCSP-16-3X3">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="6"/>
-<connect gate="G$1" pin="GND@2" pad="7"/>
-<connect gate="G$1" pin="ST" pad="2"/>
-<connect gate="G$1" pin="VS@1" pad="14"/>
-<connect gate="G$1" pin="VS@2" pad="15"/>
-<connect gate="G$1" pin="XOUT" pad="5"/>
-<connect gate="G$1" pin="YOUT" pad="4"/>
-<connect gate="G$1" pin="ZOUT" pad="16"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-12011"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ESP32-DEVKITV1">
 <packages>
 <package name="ESP32-DEVKITV1">
@@ -809,6 +682,109 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 </deviceset>
 </devicesets>
 </library>
+<library name="ADXL337_Breakout">
+<packages>
+<package name="ADXL337BREAKOUT">
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.254" layer="20"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="17.78" width="0.254" layer="20"/>
+<wire x1="17.78" y1="17.78" x2="0" y2="17.78" width="0.254" layer="20"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.254" layer="20"/>
+<wire x1="13.97" y1="1.905" x2="14.605" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="14.605" y1="2.54" x2="15.875" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="15.875" y1="2.54" x2="16.51" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="0.635" x2="15.875" y2="0" width="0.2032" layer="21"/>
+<wire x1="15.875" y1="0" x2="14.605" y2="0" width="0.2032" layer="21"/>
+<wire x1="14.605" y1="0" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="2.54" x2="10.795" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="2.54" x2="11.43" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="10.795" y2="0" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="1.905" x2="12.065" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="2.54" x2="13.335" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="2.54" x2="13.97" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="0.635" x2="13.335" y2="0" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="0" x2="12.065" y2="0" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="0" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.985" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="2.54" x2="8.89" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="8.255" y2="0" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="0" x2="6.985" y2="0" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="0" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="2.54" x2="8.89" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="0" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="0" x2="9.525" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.175" y2="0" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="5.715" y2="0" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="0" x2="4.445" y2="0" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="0" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="1.27" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="0" x2="1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="1.905" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
+<pad name="1" x="2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="7.62" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="10.16" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="12.7" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="15.24" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="14.986" y1="1.016" x2="15.494" y2="1.524" layer="51"/>
+<rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
+<rectangle x1="9.906" y1="1.016" x2="10.414" y2="1.524" layer="51"/>
+<rectangle x1="7.366" y1="1.016" x2="7.874" y2="1.524" layer="51"/>
+<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<text x="1.27" y="2.667" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="1.27" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<hole x="15.24" y="15.24" drill="3.33"/>
+<text x="2.54" y="11.43" size="1.778" layer="21">ADXL337</text>
+<text x="1.27" y="8.89" size="1.778" layer="21">Accelerometer</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ADXL337_ACCELEROMATER">
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="GND" x="-5.08" y="15.24" length="middle"/>
+<pin name="3.3V" x="-5.08" y="12.7" length="middle"/>
+<pin name="X" x="-5.08" y="10.16" length="middle"/>
+<pin name="Y" x="-5.08" y="7.62" length="middle"/>
+<pin name="Z" x="-5.08" y="5.08" length="middle"/>
+<pin name="ST" x="-5.08" y="2.54" length="middle"/>
+<text x="10.16" y="10.16" size="1.778" layer="94">ADXL337</text>
+<text x="7.62" y="7.62" size="1.778" layer="94">Accelerometer</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADXL337_ACCELEROMETER">
+<gates>
+<gate name="G$1" symbol="ADXL337_ACCELEROMATER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADXL337BREAKOUT">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="ST" pad="6"/>
+<connect gate="G$1" pin="X" pad="3"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+<connect gate="G$1" pin="Z" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -839,11 +815,6 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U1" library="SparkFun-Sensors" deviceset="ADXL337" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="U$3" library="ESP32-DEVKITV1" deviceset="ESP32DEVKITV1" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -859,11 +830,12 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <attribute name="MPN" value="L7805ABV"/>
 <attribute name="OC_NEWARK" value="34X0689"/>
 </part>
+<part name="U$4" library="ADXL337_Breakout" deviceset="ADXL337_ACCELEROMETER" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-10.16" y="104.14" size="1.778" layer="91">ST should be 0 unless testing functionality</text>
+<text x="20.32" y="109.22" size="1.778" layer="91">ST should be 0 unless testing functionality</text>
 <text x="-48.26" y="53.34" size="1.778" layer="91">Team 14
 Hayden Pietsch
 Amanda Vuong
@@ -881,11 +853,6 @@ Erick I. Cortez Valdez</text>
 <attribute name="MF" x="73.66" y="20.32" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="73.66" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="G$1" x="10.16" y="93.98">
-<attribute name="OC_NEWARK" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="10.16" y="93.98" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U$3" gate="G$1" x="2.54" y="50.8" rot="R90">
 <attribute name="OC_NEWARK" x="2.54" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="2.54" y="50.8" size="1.778" layer="96" display="off"/>
@@ -901,6 +868,7 @@ Erick I. Cortez Valdez</text>
 <attribute name="MF" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="U$4" gate="G$1" x="17.78" y="106.68" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -912,21 +880,17 @@ Erick I. Cortez Valdez</text>
 <wire x1="38.1" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="60.96" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="60.96" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <junction x="38.1" y="60.96"/>
-<wire x1="38.1" y1="78.74" x2="-7.62" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VS@2"/>
-<wire x1="-7.62" y1="78.74" x2="-7.62" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="96.52" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VS@1"/>
-<wire x1="-2.54" y1="99.06" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-2.54" y="96.52"/>
+<wire x1="38.1" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <junction x="38.1" y="27.94"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="43.18" y="60.96" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="3.3V"/>
+<wire x1="5.08" y1="83.82" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -942,12 +906,9 @@ Erick I. Cortez Valdez</text>
 <wire x1="40.64" y1="30.48" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="40.64" y="30.48"/>
-<wire x1="40.64" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@2"/>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
-<wire x1="-2.54" y1="91.44" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="81.28" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-2.54" y="88.9"/>
+<wire x1="40.64" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="2.54" y1="81.28" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND1"/>
@@ -967,27 +928,30 @@ Erick I. Cortez Valdez</text>
 <segment>
 <pinref part="U$3" gate="G$1" pin="IO15"/>
 <wire x1="20.32" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XOUT"/>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="X"/>
+<wire x1="7.62" y1="99.06" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="YOUT"/>
-<wire x1="22.86" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="IO2"/>
 <wire x1="33.02" y1="96.52" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="Y"/>
+<wire x1="33.02" y1="96.52" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="96.52" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="ZOUT"/>
-<wire x1="22.86" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="IO4"/>
 <wire x1="30.48" y1="93.98" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="Z"/>
+<wire x1="30.48" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="93.98" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -995,9 +959,9 @@ Erick I. Cortez Valdez</text>
 <pinref part="U$3" gate="G$1" pin="IO32"/>
 <wire x1="-15.24" y1="50.8" x2="-20.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="50.8" x2="-20.32" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="ST"/>
-<wire x1="-20.32" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="76.2" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="ST"/>
+<wire x1="15.24" y1="76.2" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1042,9 +1006,23 @@ Erick I. Cortez Valdez</text>
 <label x="-40.64" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PPS"/>
+<pinref part="U$3" gate="G$1" pin="IO19"/>
+<wire x1="48.26" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,48.26,50.8,U$1,PPS,N$1,,,"/>
+<approved hash="104,1,48.26,53.34,U$1,RXD,N$9,,,"/>
+<approved hash="104,1,55.88,22.86,U$2,VCC,3.3V,,,"/>
+<approved hash="113,1,-30.48,28.4226,IC1,,,,,"/>
+<approved hash="115,1,40.64,69.85,GND,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

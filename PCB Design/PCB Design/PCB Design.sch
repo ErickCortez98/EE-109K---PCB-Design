@@ -830,7 +830,11 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <attribute name="MPN" value="L7805ABV"/>
 <attribute name="OC_NEWARK" value="34X0689"/>
 </part>
-<part name="U$4" library="ADXL337_Breakout" deviceset="ADXL337_ACCELEROMETER" device=""/>
+<part name="U$4" library="ADXL337_Breakout" deviceset="ADXL337_ACCELEROMETER" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -868,7 +872,11 @@ Erick I. Cortez Valdez</text>
 <attribute name="MF" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-30.48" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="17.78" y="106.68" rot="R90"/>
+<instance part="U$4" gate="G$1" x="17.78" y="106.68" rot="R90">
+<attribute name="OC_NEWARK" x="17.78" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="17.78" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="17.78" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
